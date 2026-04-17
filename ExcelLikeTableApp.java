@@ -32,7 +32,7 @@ public class ExcelLikeTableApp extends JFrame {
                 String value = ((JTextField) comp).getText().trim();
                 try {
                     if (value.isEmpty()) {
-                        JOptionPane.showMessageDialog(table, "Поле 'Время (сек)' не может быть пустым!", "Ошибка", JOptionPane.ERROR_MESSAGE);
+                        JOptionPane.showMessageDialog(table, "Поле 'Время (секунды)' не может быть пустым!", "Ошибка", JOptionPane.ERROR_MESSAGE);
                         return false;
                     }
                     int time = Integer.parseInt(value);
